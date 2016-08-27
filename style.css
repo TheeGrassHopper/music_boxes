@@ -5,15 +5,14 @@ audio{
 	display: none;
 }
 .instrument {
-	height: 116px;
-    padding: 50px 10px 0 0;
-    margin: auto 18%;
-	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .box {
-	width: 100px;
-	height: 100px;
+	width: 110px;
+	height: 110px;
 	margin: 0 10px 0 10px;
 	float: left;
 	color: white;
@@ -93,4 +92,9 @@ audio{
     cursor: pointer;
 }.b:active {
     background-color: #f26fd4;   
+}
+
+
+@media  {
+	
 }
