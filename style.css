@@ -7,7 +7,8 @@ audio{
 .instrument {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
+	margin: 10px;
 }
 
 .box {
@@ -19,6 +20,15 @@ audio{
 	text-align: center;
 }
 
+.header{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+	color: white;
+	font-family: monospace;
+    font-weight: 100;
+    font-variant: small-caps;
+}
 .c{
 	background-color: #3e181b;
 	border: 3px solid #db1d2d;
@@ -92,9 +102,4 @@ audio{
     cursor: pointer;
 }.b:active {
     background-color: #f26fd4;   
-}
-
-
-@media  {
-	
 }
